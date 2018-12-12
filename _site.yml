@@ -1,0 +1,26 @@
+# jekill configuration
+name: "LAC-maps"
+navbar:
+  title: "LAC maps Website"
+  left:
+    - text: "Home"
+      href: index.html # MUST HAVE !!!!
+    - text: "Maps of the LAC region"  ##### the new
+      href: maps.html  ##### stuff
+    - text: "Exploratory Analysis"
+      href: analysis.html
+output:
+  html_document:
+    theme: readable
+    highlight: pygments
+    include:
+      in_header: _google_analytics.html
+      after_body: _footer.html
+output_dir: "_site"  # default is "_site", or "." (to keep all in wd)
+# include: ["import.R"]
+# exclude: ["docs.txt", "*.csv"] 
+### by default all these are EXCLUDED from the output dir
+###       beginning with (_.ffff , .fff ), 
+###       ending with  (*.R, *.s, *.Rmd), 
+###       R data ( *.RData, *..rds), 
+###       or configuration data (e.g., *..Rproj, rsconnect).

@@ -1,0 +1,22 @@
+---
+title: "Home"
+---
+
+
+## Purpose 
+Here is where I am saving some outputs from exploratory (spatial) data analysis focused on this question: 
+
+		> Is the urbanization process (size, local distribution, rate) and its effects 
+		(water demand - broken by sector) responsible for causing the lacking 
+		(access, quality, affordability, distributional losses) to service in the region 
+		(controlling for physical assets / hydrological condition, population, etc.)? 
+
+
+
+
+
+## Logistics
+This work is a sub-directory of the actual project and it is shared on Github as static website. 
+
++ Internal link (only I can see):   file://localhost/Users/luisamimmi/GoogleDrive/03_g_LAC/LAC-maps/
++ Public link on GithubPages:  https://lulliter.github.io/LAC-maps/

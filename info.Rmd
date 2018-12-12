@@ -1,0 +1,51 @@
+---
+title: "Exploratory Maps of LAC countries"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
+							 tidy = TRUE, 
+							 echo = FALSE , 
+							 results='hide',  
+							 message = FALSE, 
+							 warning = FALSE , 
+							 fig.show='asis', fig.align='center', fig.width=6, fig.height=6)
+```
+
+```{r packages, cache = FALSE, message = FALSE, include=FALSE}
+# library(tidyverse)
+```
+
+
+
+## Brazil level 2 boundaries
+![Brazil 3 levels of admin boundaries (Source: GADM)](images/Bra_3lev_AdminBound.png)
+
+![Brazil intereactive map of level 2(Source: GADM)](images/Brazil_lev2Munic_leaf.html)
+
+
+
+
+
+
+
+
+# NEXT  {.toc-ignore}
+.... what if I put data in data and reconstruct things here ? 
+
+
+
+<details> 
+  <summary>Click for the session info</summary>
+  <p>
+
+```{r child='_sessioninfo.Rmd'}
+
+```
+  </p>
+</details>
+

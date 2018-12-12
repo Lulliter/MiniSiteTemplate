@@ -1,0 +1,68 @@
+---
+title: "Exploratory analysis of Water prices"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
+							 tidy = TRUE, 
+							 echo = FALSE , 
+							 results='hide',  
+							 message = FALSE, 
+							 warning = FALSE , 
+							 fig.show='asis', fig.align='center', fig.width=6, fig.height=6)
+
+#here::set_here(path = ".")
+here::here()
+```
+
+
+
+1. Starting from a reduced balanced panel dataset of 22 cities with GWI data over 7 years, the **Combined bill /m3** shows much more variability and growth in Metropolitan areas. 
+
+```{r domain }
+# Follow 
+# https://stackoverflow.com/questions/15625990/how-to-set-size-for-local-image-using-knitr-for-markdown
+# From '04_Explore/05_Explore_Pop-Price-ByCity-OverTime.Rmd'
+
+
+library(datapasta)
+t <- tibble::tribble(
+                                                                         ~f,   ~n,
+                                                              "City Proper",   7L,
+                                                        "Metropolitan area", 127L,
+                                                      "Urban Agglomeration",  12L
+) #%>%
+  #dput()
+```
+
++ Where 
+```{r domainT , eval=TRUE, echo=FALSE, results='asis'}
+kable(t, 
+      caption="A test table", 
+      align = c("c", "r"))
+```
+
+
+
+<div style="width:800px; height:600px">
+![Combined bill (Water & WasteWater) /m3 conditional on the type of city](images/01_PanelCoplotStatType.png)
+</div>
+
+<!-- ![Combined bill (Water & WasteWater) /m3 conditional on the type of city](.././05_Output/01_PanelCoplotStatType.png){width=80%} -->
+
+2. It is also noticeable how much more variability there is in the Wastewater than in Water bill (as well as a steeper avg increase over time)
+<div style="width:800px; height:8600px">
+![Water & WasteWater bills /m3 over time](images/02_BoxplotTime.png)
+</div>
+
+
+3. Interestingly NON-Capital  areas have much higher prices on avg 
+<div style="width:800px; height:8600px">
+![Water & WasteWater bills /m3 in Capital or Non-Capital cities](images/05_PriceCapOrNot.png)
