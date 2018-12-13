@@ -3,20 +3,14 @@ title: "Home"
 ---
 
 
-## Purpose 
-Here is where I am saving some outputs from exploratory (spatial) data analysis focused on this question: 
-
-		> Is the urbanization process (size, local distribution, rate) and its effects 
-		(water demand - broken by sector) responsible for causing the lacking 
-		(access, quality, affordability, distributional losses) to service in the region 
-		(controlling for physical assets / hydrological condition, population, etc.)? 
+## Description of the Project  
+This is .... 
 
 
 
 
+## Research Question  
 
-## Logistics
-This work is a sub-directory of the actual project and it is shared on Github as static website. 
+1) Question 1 
 
-+ Internal link (only I can see):   file://localhost/Users/luisamimmi/GoogleDrive/03_d_R-projects/MiniSiteTemplate
-+ Public link on GithubPages:  https://lulliter.github.io/MiniSiteTemplate/
+2) Question 2 

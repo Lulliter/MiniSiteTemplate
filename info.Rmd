@@ -7,6 +7,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+# (This is invisible)
+
+# This .Rmd adds some text and tables to describe graphs created in another REPO and copied in ./images
+
 knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
 							 tidy = TRUE, 
 							 echo = FALSE , 
@@ -20,30 +24,26 @@ knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
 # library(tidyverse)
 ```
 
+Bla Bla Bla 
 
 
-## Brazil level 2 boundaries
-![Brazil 3 levels of admin boundaries (Source: GADM)](images/Bra_3lev_AdminBound.png)
+# Authors
 
-![Brazil intereactive map of level 2(Source: GADM)](images/Brazil_lev2Munic_leaf.html)
+# Bibliography
 
-
-
+# Etc.
 
 
-
-
-
-# NEXT  {.toc-ignore}
+# Next  {.toc-ignore}
 .... what if I put data in data and reconstruct things here ? 
 
 
-
+<!-- This creates a hidden button -->
 <details> 
-  <summary>Click for the session info</summary>
+  <summary> Click for the session info</summary>
   <p>
 
-```{r child='_sessioninfo.Rmd'}
+```{r child='_sessioninfo.Rmd', results='asis'}
 
 ```
   </p>

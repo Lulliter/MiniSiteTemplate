@@ -1,5 +1,5 @@
 ---
-title: "Exploratory analysis of Water prices"
+title: "Report"
 output:
   html_document:
     toc: true
@@ -10,6 +10,10 @@ output:
 
 
 ```{r setup, include=FALSE}
+# (This is invisible)
+
+# This .Rmd adds some text and tables to describe graphs created in another REPO and copied in ./images
+
 knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
 							 tidy = TRUE, 
 							 echo = FALSE , 
@@ -27,11 +31,10 @@ here::here()
 1. Starting from a reduced balanced panel dataset of 22 cities with GWI data over 7 years, the **Combined bill /m3** shows much more variability and growth in Metropolitan areas. 
 
 ```{r domain }
-# Follow 
+# (This is invisible)
+
 # https://stackoverflow.com/questions/15625990/how-to-set-size-for-local-image-using-knitr-for-markdown
 # From '04_Explore/05_Explore_Pop-Price-ByCity-OverTime.Rmd'
-
-
 library(datapasta)
 t <- tibble::tribble(
                                                                          ~f,   ~n,
@@ -44,6 +47,7 @@ t <- tibble::tribble(
 
 + Where 
 ```{r domainT , eval=TRUE, echo=FALSE, results='asis'}
+# (This is Visible)
 library(kableExtra)
 kable(t, 
       caption="A test table", 
