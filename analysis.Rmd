@@ -14,7 +14,7 @@ output:
 
 # This .Rmd adds some text and tables to describe graphs created in another REPO and copied in ./images
 
-knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
+knitr::opts_chunk$set(cache = F, # (Swith to TRUE if long -> enable caching for an entire document)
 							 tidy = TRUE, 
 							 echo = FALSE , 
 							 results='hide',  
