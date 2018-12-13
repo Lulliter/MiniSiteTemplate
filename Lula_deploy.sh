@@ -9,11 +9,13 @@ git status
 # Add ALL changes to git Index.
 git add -A
 
-# Commit Those changes.
+# Create Std commit "message"....
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
+
+# ... Commit Those changes.
 git commit -m "$msg"
 
 
