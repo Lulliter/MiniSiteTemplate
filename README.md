@@ -34,7 +34,9 @@ This is built using the default Jekyll configuration found in Github [check](htt
 + Jekyll supports loading data from YAML, JSON, and CSV files located in the  `_data` directory. 
 	- Note that CSV files must contain a header row.
 
-Key documentation: [yihui](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#site-configuration)
-A minimal example [here](https://github.com/yihui/blogdown-jekyll)
++ Great tutorial [Nick Strayer & Lucy D’Agostino McGowan](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
+	- [Github](https://github.com/nstrayer/personal_site)
++ Key documentation: [yihui](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#site-configuration)
++ A minimal example [here](https://github.com/yihui/blogdown-jekyll)
  
 
