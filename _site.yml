@@ -19,6 +19,7 @@ output:
 output_dir: "_site"  # default is "_site", or "." (to keep all in wd)
 # include: ["import.R"]
 # exclude: ["docs.txt", "*.csv"] 
+exclude: ["*.sh"] 
 ### by default all these are EXCLUDED from the output dir
 ###       beginning with (_.ffff , .fff ), 
 ###       ending with  (*.R, *.s, *.Rmd), 
