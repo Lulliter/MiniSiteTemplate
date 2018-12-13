@@ -1,6 +1,6 @@
 # jekill configuration
 name: "Mini-Site-Example"
-navbar:
+navbar: # define a navigation bar for websites based on the html_document format.
   title: "Mini site Example"
   left:
     - text: "Home"
