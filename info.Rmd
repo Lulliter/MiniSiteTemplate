@@ -43,7 +43,7 @@ Bla Bla Bla
   <summary> Click for the session info</summary>
   <p>
 
-```{r child='./Extra/_sessioninfo.Rmd', results='asis'}
+```{r child='_extra/_sessioninfo.Rmd', results='asis'}
 
 ```
   </p>

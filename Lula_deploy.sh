@@ -1,7 +1,7 @@
-# Go To (git) ./ folder
-cd ~/GoogleDrive/03_d_R-projects/MiniSiteTemplate
-ls
-git remote show origin 
+	# Go To (git) ./ folder
+	cd ~/GoogleDrive/03_d_R-projects/MiniSiteTemplate
+	ls
+	git remote show origin 
 
 # check status
 git status
@@ -10,7 +10,7 @@ git status
 git add -A
 
 # Create Std commit "message"....
-msg="rebuilding site `date`"
+msg="rebuil on `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi

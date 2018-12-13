@@ -1,21 +1,21 @@
+# RStudio files
+.Rproj.user/
 # History files
 .Rhistory
 .Rapp.history
-
 # Session Data files
 .RData
+# _site (But If I ignore GITHUB won't find the .html output files!!!)
+_site
+.sass-cache/
 
+#================================== EXTRA (copied somewhere) ========================================#
 # Example code in package build process
 *-Ex.R
-
 # Output files from R CMD build
 /*.tar.gz
-
 # Output files from R CMD check
 /*.Rcheck/
-
-# RStudio files
-.Rproj.user/
 
 # produced vignettes
 vignettes/*.html
@@ -35,9 +35,6 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 .Rproj.user
-
-# _site (But If I ignore GITHUB won't find the .html output files!!!)
-# _site
 
 # Excel temporary
 ~$*.xls*
