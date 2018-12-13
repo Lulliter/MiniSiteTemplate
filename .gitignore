@@ -36,8 +36,8 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 
+# _site (But If I ignore GITHUB won't find the .html output files!!!)
 # _site
-_site
 
 # Excel temporary
 ~$*.xls*
