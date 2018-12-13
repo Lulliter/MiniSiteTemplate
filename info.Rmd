@@ -1,5 +1,5 @@
 ---
-title: "Exploratory Maps of LAC countries"
+title: "Notes about the Project"
 output:
   html_document:
     toc: true

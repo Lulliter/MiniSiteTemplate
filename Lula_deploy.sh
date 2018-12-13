@@ -1,5 +1,5 @@
 # Go To (git) ./ folder
-cd ~/GoogleDrive/*_LAC/LAC-maps
+cd ~/GoogleDrive/03_d_R-projects/MiniSiteTemplate
 ls
 git remote show origin 
 

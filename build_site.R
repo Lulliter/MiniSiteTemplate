@@ -3,7 +3,7 @@
 # ======= Set our working directory. 
 #This helps avoid confusion if our working directory is 
 #not our site but the .Rproject. 
-setwd("~/GoogleDrive/03_g_LAC/LAC-maps")
+setwd("~/GoogleDrive/03_d_R-projects/MiniSiteTemplate")
 
 
 # ======= list which files will be removed

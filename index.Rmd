@@ -18,5 +18,5 @@ Here is where I am saving some outputs from exploratory (spatial) data analysis 
 ## Logistics
 This work is a sub-directory of the actual project and it is shared on Github as static website. 
 
-+ Internal link (only I can see):   file://localhost/Users/luisamimmi/GoogleDrive/03_g_LAC/LAC-maps/
-+ Public link on GithubPages:  https://lulliter.github.io/LAC-maps/
++ Internal link (only I can see):   file://localhost/Users/luisamimmi/GoogleDrive/03_d_R-projects/MiniSiteTemplate
++ Public link on GithubPages:  https://lulliter.github.io/MiniSiteTemplate/
