@@ -12,7 +12,7 @@ This is a template for creating a mini Project website
 
 ## Steps to setup and launch new mini-site
 
-1. on Github: Create new repo 
+1. on Github: Create new repo `whateverthename`
 2. on Terminal (in the parent Local dir): Clone remote report 
 	`git clone "https://github.com/lulliter/whateverthename.git"` 
 
@@ -21,12 +21,20 @@ This is a template for creating a mini Project website
 	`click the drop down menu under “Source” and click “master branch”`
 
 5. on Local: make some adaptation / add content 
-6. on Terminal/RStudio: Build the site locally 
-	(or see `./build_site.R`)
-7. on Terminal/RStudio: git add/commit/push
-	(or see `./Lula_deploy.sh`)
+6. (on Terminal/RStudio: Build the site locally (or see `./build_site.R`))
+	+ actually, now the shell script `./_render-deploy.sh` invokes and run  `./build_site.R`
+7. on Terminal/RStudio: git add/commit/push (or see `./_render-deploy.sh`)
+	
 
+## Important
 
+**R Markdown websites** can be hosted using GitHub Pages in 2 ways 
+
+1. With two additions to the standard site configuration:
+        + Add a file named `.nojekyll` to your site source code directory (this tells GitHub Pages to not process your site with the Jekyll engine).
+        + Change your output directory to “.” within `_site.yml`. For example: `output_dir: "."` ( _using this configuration your source code, data, and everything else in your repository is all publicly available alongside your generated website content._ ).
+
+2. Alternatively, you can configure GitHub Pages ⧉ to publish from a /docs subdirectory of your repository. If you work in this configuration you should change your output directory to “docs” within _site.yml. For example:`output_dir: "docs`"
 
 ## Acknowledgements
 This is built using the default Jekyll configuration found in Github [check](https://jekyllrb.com/docs/configuration/default/)
