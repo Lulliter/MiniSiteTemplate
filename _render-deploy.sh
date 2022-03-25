@@ -26,7 +26,7 @@ hugo -v -t hugo-academic
 #=========================================== (back to ./publlic) ================================================#
 ########################################################
 
-cd ~/GoogleDrive/source/public
+cd ./
 
 
 # Go To (git) ./sub-folder (one below the Rproj wdir) 
