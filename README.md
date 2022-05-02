@@ -1,9 +1,12 @@
 # MiniSiteTemplate
+... also used for  learning git stuff 🤓
+
+
 
 ## Location
 This is a template for creating a mini Project website  
 
-+ Internal link (only I can see):   file://localhost/Users/luisamimmi/GoogleDrive/03_d_R-projects/MiniSiteTemplate
++ Internal link (only I can see): file://localhost/Users/luisamimmi/My Drive/Github/MiniSiteTemplate
 + Public link on GithubPages:  https://lulliter.github.io/MiniSiteTemplate/
 
 ## Content

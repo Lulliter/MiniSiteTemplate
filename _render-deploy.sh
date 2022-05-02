@@ -5,21 +5,23 @@
 
 
 
-#=========================================== (In Root ./ start) ================================================#
+# ========================= (In Root ./ start) ================================================#
 ########################################################
-# HUGO command line to build site 
-# https://gohugo.io/commands/hugo/ (documentation)
+# RMARKDOWN SITE command line to build site 
+ 
 ########################################################
 # Go To ./ folder
-cd ~/GoogleDrive/source
+cd ~/'My Drive'/Github/MiniSiteTemplate
 
-# hugo
-# hugo -t hugo-academic # does't work
+# list which files will be removed
+R -e 'rmarkdown::clean_site(preview = TRUE)'
 
-hugo -v -t hugo-academic
-# If you want to see the preview of the site, look to the viewer pane of Rstudio or use 
-# hugo server -D 
-# in the terminal.
+# actually remove the files
+R -e 'rmarkdown::clean_site()'
+
+
+# serve site
+R -e 'rmarkdown::render_site()'
 #=========================================== (end) ================================================#
 
 
