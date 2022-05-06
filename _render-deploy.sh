@@ -7,19 +7,22 @@
 
 #=========================================== (In Root ./ start) ================================================#
 ########################################################
-# HUGO command line to build site 
-# https://gohugo.io/commands/hugo/ (documentation)
+# Rmarkdown command line to build site 
+#  
 ########################################################
-# Go To ./ folder
-cd ~/GoogleDrive/source
 
-# hugo
-# hugo -t hugo-academic # does't work
+# ====== CLEAN 1/2 (list which files will be removed)
+# USING         Rscript -e "Rcode"
+Rscript -e "rmarkdown::clean_site(preview = TRUE)"
+# ====== CLEAN 2/2  (actually remove the files)
+Rscript -e "rmarkdown::clean_site()"
 
-hugo -v -t hugo-academic
-# If you want to see the preview of the site, look to the viewer pane of Rstudio or use 
-# hugo server -D 
-# in the terminal.
+# ====== RENDER the entire site
+Rscript -e "rmarkdown::render_site()"
+# render a single file only
+#Rscript -e "rmarkdown::render_site("G20Journ.Rmd")"
+
+
 #=========================================== (end) ================================================#
 
 
