@@ -11,7 +11,7 @@
  
 ########################################################
 # Go To ./ folder
-cd ~/'My Drive'/Github/MiniSiteTemplate
+cd ~/Github/MiniSiteTemplate
 
 # list which files will be removed
 R -e 'rmarkdown::clean_site(preview = TRUE)'
