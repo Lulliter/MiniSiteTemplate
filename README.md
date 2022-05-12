@@ -1,9 +1,9 @@
 # MiniSiteTemplate
+
 ... also used for  learning git stuff 🤓
 
-
-
 ## Location
+
 This is a template for creating a mini Project website  
 
 + Internal link (only I can see): file://localhost/Users/luisamimmi/My Drive/Github/MiniSiteTemplate
@@ -16,19 +16,18 @@ This is a template for creating a mini Project website
 ## Steps to setup and launch new mini-site
 
 1. on Github: Create new repo `whateverthename`
-2. on Terminal (in the parent Local dir): Clone remote report 
-	`git clone "https://github.com/lulliter/whateverthename.git"` 
+2. on Terminal (in the parent Local dir): Clone remote report
+	`git clone "https://github.com/lulliter/whateverthename.git"`
 
 3. on Local: Copy the content of example
-4. on Github: Scroll down to the Repo / Setting/ Github Pages section 
+4. on Github: Scroll down to the Repo / Setting/ Github Pages section
 	`click the drop down menu under “Source” and click “master branch”`
 
-5. on Local: make some adaptation / add content 
+5. on Local: make some adaptation / add content
 6. (on Terminal/RStudio: Build the site locally (or see `./build_site.R`))
 	+ actually, now the shell script `./_render-deploy.sh` invokes and run  `./build_site.R`
 7. on Terminal/RStudio: git add/commit/push (or see `./_render-deploy.sh`)
 	
-
 ## Important
 
 **R Markdown websites** can be hosted using GitHub Pages in 2 ways 
@@ -40,14 +39,13 @@ This is a template for creating a mini Project website
 2. Alternatively, you can configure GitHub Pages ⧉ to publish from a /docs subdirectory of your repository. If you work in this configuration you should change your output directory to “docs” within _site.yml. For example:`output_dir: "docs`"
 
 ## Acknowledgements
+
 This is built using the default Jekyll configuration found in Github [check](https://jekyllrb.com/docs/configuration/default/)
 
-+ Jekyll supports loading data from YAML, JSON, and CSV files located in the  `_data` directory. 
-	- Note that CSV files must contain a header row.
++ Jekyll supports loading data from YAML, JSON, and CSV files located in the  `_data` directory.
+	+ Note that CSV files must contain a header row.
 
 + Great tutorial [Nick Strayer & Lucy D’Agostino McGowan](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
-	- [Github](https://github.com/nstrayer/personal_site)
+	+ [Github](https://github.com/nstrayer/personal_site)
 + Key documentation: [yihui](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#site-configuration)
 + A minimal example [here](https://github.com/yihui/blogdown-jekyll)
- 
-
