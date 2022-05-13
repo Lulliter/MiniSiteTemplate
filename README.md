@@ -1,12 +1,17 @@
 # MiniSiteTemplate
 
-... also used for  learning git stuff 🤓
+## (*) Testing
+I am learning how do use `git branch` and created a branch named `like_andrew` (where I attach features like [here](https://talks.andrewheiss.com/2021-03-04_uga-markdown/) )
+
+
+
+### I also added a branch called `reset_branch`
 
 ## Location
 
 This is a template for creating a mini Project website  
 
-+ Internal link (only I can see): file://localhost/Users/luisamimmi/My Drive/Github/MiniSiteTemplate
++ Internal link (only I can see): file://localhost/Users/luisamimmi/Github/MiniSiteTemplate
 + Public link on GithubPages:  https://lulliter.github.io/MiniSiteTemplate/
 
 ## Content
@@ -32,11 +37,12 @@ This is a template for creating a mini Project website
 
 **R Markdown websites** can be hosted using GitHub Pages in 2 ways 
 
-1. With two additions to the standard site configuration:
+1. [_IM USING THIS!_] With two additions to the standard site configuration:
         + Add a file named `.nojekyll` to your site source code directory (this tells GitHub Pages to not process your site with the Jekyll engine).
         + Change your output directory to “.” within `_site.yml`. For example: `output_dir: "."` ( _using this configuration your source code, data, and everything else in your repository is all publicly available alongside your generated website content._ ).
 
 2. Alternatively, you can configure GitHub Pages ⧉ to publish from a /docs subdirectory of your repository. If you work in this configuration you should change your output directory to “docs” within _site.yml. For example:`output_dir: "docs`"
+
 
 ## Acknowledgements
 

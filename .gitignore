@@ -5,8 +5,10 @@
 .Rapp.history
 # Session Data files
 .RData
+
 # _site (But If I ignore GITHUB won't find the .html output files!!!)
 _site
+*/site_libs/
 .sass-cache/
 
 #================================== EXTRA (copied somewhere) ========================================#

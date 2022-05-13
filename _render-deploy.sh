@@ -7,21 +7,22 @@
 
 # ========================= (In Root ./ start) ================================================#
 ########################################################
-# RMARKDOWN SITE command line to build site 
- 
+# Rmarkdown command line to build site 
+#  
 ########################################################
-# Go To ./ folder
-cd ~/Github/MiniSiteTemplate
 
-# list which files will be removed
-R -e 'rmarkdown::clean_site(preview = TRUE)'
+# ====== CLEAN 1/2 (list which files will be removed)
+# USING         Rscript -e "Rcode"
+Rscript -e "rmarkdown::clean_site(preview = TRUE)"
+# ====== CLEAN 2/2  (actually remove the files)
+Rscript -e "rmarkdown::clean_site()"
 
-# actually remove the files
-R -e 'rmarkdown::clean_site()'
+# ====== RENDER the entire site
+Rscript -e "rmarkdown::render_site()"
+# render a single file only
+#Rscript -e "rmarkdown::render_site("G20Journ.Rmd")"
 
 
-# serve site
-R -e 'rmarkdown::render_site()'
 #=========================================== (end) ================================================#
 
 

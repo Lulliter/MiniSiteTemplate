@@ -12,7 +12,7 @@ navbar: # define a navigation bar for websites based on the html_document format
 output_dir: "."  # default is "_site" (DOESN'T RENDER!!!), or "." (to keep all in wd)
 output:
   html_document:
-    css: my_style.css
+    css: "my_style.css"
     theme: readable
     highlight: pygments
     include: # enable you to override which files are copied into the output directory
